@@ -18,9 +18,13 @@ total = 0
 
 #############   define program functions ##############
 def main():
-    get_user_data()
-    perform_calculations()
-    display_results()
+
+    more_tickets = True
+    
+    while more_tickets:
+        get_user_data()
+        perform_calculations()
+        display_results()
 
     yesno = input("\nWould you like to order again (Y or N)?")
     if yesno == "N" or yesno =="n":
