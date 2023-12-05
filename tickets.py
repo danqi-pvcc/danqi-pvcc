@@ -26,10 +26,10 @@ def main():
         perform_calculations()
         display_results()
 
-    yesno = input("\nWould you like to order again (Y or N)?")
-    if yesno == "N" or yesno =="n":
-        more_tickets = False
-        print("Thank you for your order. Enjoy your movie!")
+        yesno = input("\nWould you like to order again (Y or N)?")
+        if yesno == "N" or yesno =="n":
+            more_tickets = False
+            print("Thank you for your order. Enjoy your movie!")
 
 def get_user_data():
     global num_tickets
